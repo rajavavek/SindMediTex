@@ -11,3 +11,11 @@ The SindMediTex dataset was developed using a multi-step approach. First, a team
 ![image](https://github.com/user-attachments/assets/757646c5-9ac7-451b-afc3-add42cfbb2df)
 
 The SindMediTex dataset consists of 100,000 labeled entries, divided equally among four categories: Condition, Treatment, Prevention, and Other. Each entry includes a Sindhi medical text and its corresponding label. The dataset is stored in CSV format, with two columns: Text and Label. The dataset includes a range of medical topics, including diseases, symptoms, treatments, and prevention strategies. The text is written in a clear and concise manner, making it suitable for NLP applications.
+
+Examaples:
+
+**حالت:**  دل سان لاڳاپيل مسئلا، جهڙوڪ ڇاتي ۾ سور ۽ ساهه کڻڻ ۾ ڏکيائي
+
+**روڪٿام:**  دل جي بيمارين کان بچڻ لاءِ روزانو ورزش ڪريو
+
+**علاج:** بخار جو علاج پيراسيٽامول جهڙين دوائن سان ڪيو وڃي، جيئن صلاح ڏني وئي آهي
