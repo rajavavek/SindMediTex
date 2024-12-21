@@ -16,10 +16,33 @@ The SindMediTex dataset was developed using a multi-step approach. First, a team
 
 The SindMediTex dataset consists of 100,000 labeled entries, divided equally among four categories: Condition, Treatment, Prevention, and Other. Each entry includes a Sindhi medical text and its corresponding label. The dataset is stored in CSV format, with two columns: Text and Label. The dataset includes a range of medical topics, including diseases, symptoms, treatments, and prevention strategies. The text is written in a clear and concise manner, making it suitable for NLP applications.
 
-Examples:
+Dataset Overview
 
-**حالت:**  دل سان لاڳاپيل مسئلا، جهڙوڪ ڇاتي ۾ سور ۽ ساهه کڻڻ ۾ ڏکيائي
+| Sindhi Text                                                                 | Label       |
+|-----------------------------------------------------------------------------|-------------|
+| شوگر جي مريضن ۾ اکيون خراب ٿيڻ جو امڪان وڌي سگهي ٿو.                         | Condition   |
+| دل جي بيمارين کان بچڻ لاءِ روزانو هلڻ جي عادت ٺاهي.                            | Prevention  |
+| بلڊ پريشر جي علاج لاءِ ڊاڪٽر تجويز ٿيل دوائون وقت تي وٺو.                      | Treatment   |
+| دماغي صحت لاءِ روزانو مراقبو ڪرڻ مفيد ٿي سگهي ٿو.                             | Other       |
+| جگر جي خرابي جا نشان جھڙوڪ يرقان ۽ معدي ۾ سور ٿي سگهن ٿا.                     | Condition   |
+| ڪينسر کان بچڻ لاءِ سگريٽ نوشي بند ڪريو.                                     | Prevention  |
+| معدي جي جلن لاءِ علاج ۾ اينٽي ايڊز دوائون تجويز ڪيون وڃن ٿيون.                | Treatment   |
+| صحتمند زندگي لاءِ مناسب سمهڻ ضروري آهي.                                      | Other       |
 
-**روڪٿام:**  دل جي بيمارين کان بچڻ لاءِ روزانو ورزش ڪريو
+## Labels
+The dataset includes four distinct labels:
 
-**علاج:** بخار جو علاج پيراسيٽامول جهڙين دوائن سان ڪيو وڃي، جيئن صلاح ڏني وئي آهي
+- **Condition**: Indicates a medical condition or its symptoms.
+- **Prevention**: Describes preventive measures for health-related issues.
+- **Treatment**: Refers to treatments or prescribed medicines.
+- **Other**: General advice or unrelated health information.
+  
+**Note**: Ensure ethical use of this dataset, respecting the privacy and cultural sensitivity of Sindhi-speaking populations.
+
+## Usage
+This dataset can be used for various NLP tasks, such as:
+
+- Sentiment analysis
+- Text classification
+- Named entity recognition (NER)
+- Healthcare-specific NLP applications
